@@ -1,37 +1,80 @@
 # TaskFlow
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+*A task management system designed to enhance productivity. Users can seamlessly create, edit, and organize tasks, ensuring an efficient workflow and better time management.*
 
-First, run the development server:
+[to view the project click here](https://nicklemoncito.vercel.app/docs/Projects/TaskFlow)
+
+## Exciting features to add ✨
+These are the features I'm currently working on:
+- **Workspaces** 🏢
+  - Create multiple workspaces for different organizations
+  - Customize workspace settings and preferences
+  - Manage workspace members and roles
+
+- **Projects** 📊
+  - Create and manage multiple projects within workspaces
+  - Set project goals and milestones
+  - Track project progress and metrics
+
+- **Task Management** ✅
+  - Multiple task views:
+    - Kanban Board 📋
+    - Calendar View 📅
+    - List View 📝
+  - Task stages:
+    - Backlog
+    - Todo
+    - In Progress
+    - In Review
+    - Done
+  - Rich task details:
+    - Descriptions with markdown support
+    - File attachments
+    - Comments and discussions
+    - Due dates and priorities
+    - Labels and tags
+
+- **Team Collaboration** 👥
+  - Invite team members to workspaces
+  - Assign tasks to team members
+  - Real-time updates and notifications
+  - Team member permissions and roles
+
+## Tech Stack 💻
+The tech stack I'm currently working on is in R&D, so it may change or be updated.
+- **Frontend**:
+  - Next.js
+  - TypeScript
+  - Tailwind CSS
+  - shadcn/ui components
+
+- **Backend**:
+  - Hono 
+  - Appwrite
+
+## Prerequisites 📋
+
+- [NVM](https://github.com/nvm-sh/nvm) (Node Version Manager) is installed
+
+## Installation 🛠️
 
 ```bash
-npm run dev
-# or
+1. Clone the repository:
+git clone https://github.com/nicklm0/TaskFLow.git
+
+2. go to the project directory
+$ cd TaskFLow/
+
+3. Install dependencies:
+# Install dependencies
+$ npm install
+
+4. run the development server:
+$ npm run dev
+# or if you using yarn
 yarn dev
-# or
+# or if you using pnpm
 pnpm dev
-# or
+# or if you using bun
 bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
