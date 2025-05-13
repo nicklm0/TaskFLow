@@ -1,6 +1,7 @@
 # TaskFlow
 
-*A human resource scheduling platform that streamlines employee shift management and attendance tracking, enhancing workforce coordination.*
+* A task management system that simplifies creating, editing, and organizing tasks for more efficient workflow management*
+
 
 [to view the project click here](https://nicklemoncito.vercel.app/docs/Projects/TaskFlow)
 
