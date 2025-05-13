@@ -1,6 +1,6 @@
 # TaskFlow
 
-*A task management system designed to enhance productivity. Users can seamlessly create, edit, and organize tasks, ensuring an efficient workflow and better time management.*
+*A human resource scheduling platform that streamlines employee shift management and attendance tracking, enhancing workforce coordination.*
 
 [to view the project click here](https://nicklemoncito.vercel.app/docs/Projects/TaskFlow)
 
